@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"json:target/jsonReports/cucumber-report.json"},
 		glue = {"stepDefinitions"},
 		dryRun = false,
-		monochrome =  true
+		monochrome =  true,
+		publish = true
 		)
 public class TestRunner {
 
