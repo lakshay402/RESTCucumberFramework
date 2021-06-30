@@ -10,7 +10,7 @@ public class Utils {
 	RequestSpecification reqSpecification;
 	Response response;
 
-	String bearer_token = "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";
+	String bearer_token = "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";
 	String base_URI = "https://api.github.com";
 
 	public Response postRequest(String resourcePath, String payload) {
